@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f8ff;
+  color: #59429d;
+}
+
+#header {
+  text-align: center;
+  color: #380b61;
+  margin-top: 1%;
+}
+
+form {
+  width: 25%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+fieldset {
+  border: 0;
+}
+
+label {
+  display: block;
+}
+
+fieldset.group {
+  display: flex;
+}
+
+fieldset.group div.field,
+.field {
+  width: 100%;
+}
+
+div.field input#name {
+  width: 90%;
+  height: 2em;
+}
+
+div.field input#last-name {
+  width: 90%;
+  height: 2em;
+}
+
+fieldset.group div input,
+.field input,
+select,
+#message {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.field {
+  margin-top: 1em;
+}
+
+div.field input#email {
+  width: 45%;
+  height: 2em;
+}
+
+select {
+  width: 20%;
+  height: 2em;
+  color: #59429d;
+}
+
+#field-technology label.label1 {
+  margin-bottom: -1.5em;
+  margin-top: 1.6em;
+}
+
+div#check-group {
+  display: flex;
+  margin-top: 2em;
+}
+
+div#check-group label {
+  margin-right: 0.7em;
+}
+
+#message {
+  width: 95%;
+}
+
+#button {
+  background-color: #59429d;
+  padding: 0.5em;
+  color: white;
+  font-size: 1em;
+  border-radius: 0.5em;
+  display: flex;
+  margin: 2em auto;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  background-color: #ece6ff;
+  color: white;
+}
+
+select:focus {
+  background-color: #ece6ff;
+  color: black;
+}
+
+#message:focus {
+  background-color: #ece6ff;
+  color: black;
+  font-family: sans-serif;
+  font-size: 1em;
+}
+
+#button:hover {
+  background-color: #380b61;
+  color: white;
+  padding: 0.6em;
+}
